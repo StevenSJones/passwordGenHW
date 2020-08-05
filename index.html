@@ -82,7 +82,7 @@
       <div class="shadow-sm p-3 mb-5 bg-white rounded">
         <!--using style attribute to embolden the header-->
         <h1>
-          The Random Number Generator
+          The Password Generator
         </h1>
       </div>
     </header>
@@ -91,20 +91,20 @@
     <div class="shadow-lg p-3 mb-5 bg-white rounded container-fluid">
       <!-- Use .container-fluid for a full width container, spanning the entire width of the viewport. -->
       <div >
-      <h2>Generate a Random Number</h2>
+      <h2>Generate a Password</h2>
       <section>
         <!--create a section that takes user input for min, max, how many passwords and no repeat-->
         <div class="group">
-          <label for="minimum">Number of Characters</label>
+          <label for="minimum">Number of Characters?</label>
           <input type="number" step="1" id="numOfChar" />
         </div>
         <div class="boxgroup">
-          <input type="checkbox" id="upperCase" />
-          <label for="norepeat">Upper Case Letters </label>
+          <input type="checkbox" id="upperCase" value="true"/>
+          <label for="norepeat">Upper Case Letters?</label>
         </div>
         <div class="boxgroup">
           <input type="checkbox" id="lowerCase" />
-          <label for="norepeat">Lower Case Letters </label>
+          <label for="norepeat">Lower Case Letters?</label>
         </div>
         <div class="boxgroup">
           <input type="checkbox" id="specChar" />
@@ -112,7 +112,7 @@
         </div>
         <div class="boxgroup">
           <input type="checkbox" id="numbers" />
-          <label for="norepeat">Numbers</label>
+          <label for="norepeat">Numbers?</label>
         </div>
         <div class="card-footer">
           <button id="generate" class="btn">Generate Number</button>
