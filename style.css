@@ -1,0 +1,54 @@
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+    font-family: Bookman, serif;
+    background-color: rgb(255, 248, 220);
+  }
+  
+  body,
+  section {
+    text-align: center;
+    padding: 20px;
+    padding-top: 0px;
+    color: midnightblue;
+  }
+
+  header{
+    text-align: center;
+    padding: 10px;
+    padding-top: 0px;
+    background-color: midnightblue;
+    color: rgb(255, 248, 220);
+}
+
+footer{
+  text-align: center;
+  padding: 20px;
+  background-color: midnightblue;
+  color: rgb(255, 248, 220);
+  font-family: cursive, serif;
+}
+
+h1{
+    font-size: 60px;
+    background-color: midnightblue;
+    margin-top: 5px;
+
+}
+  
+
+  .btn{
+    background-color: midnightblue;
+    color: rgb(255, 248, 220);
+
+  }
+  .btn:hover{
+    background-color:  rgb(255, 248, 220);
+    color: midnightblue;
+    
+  }
+  
